@@ -21,8 +21,8 @@ module.exports = {
   // Don't include them into library build
   externals: [
     'vue',
-    'flatpickr',
-    'flatpickr/dist/flatpickr.css',
+    // 'flatpickr',
+    // 'flatpickr/dist/flatpickr.css',
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),// where to store build files
