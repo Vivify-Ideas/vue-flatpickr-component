@@ -34,7 +34,7 @@
     "prepublishOnly": "npm run test && npm run build"
   },
   "dependencies": {
-    "flatpickr": "^4.2.3"
+    "flatpickr": "git+https://github.com/Vivify-Ideas/vue-flatpickr-component.git"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
